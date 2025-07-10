@@ -1,0 +1,7 @@
+#heading, .para1 {
+    color: red;
+}
+.div1 .country {
+    color: blue;
+    font-weight:bold
+}
