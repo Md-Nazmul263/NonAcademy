@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    background-color:cornflowerblue;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+input {
+    margin-bottom: 6px;
+    padding: 3px;
+    border: transparent;
+}
+button {
+    background-color: rgb(180, 226, 43);
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: darkmagenta;
+}

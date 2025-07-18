@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(74, 138, 215);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    background-color: #7ea9a9;
+    width: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.card form p {
+    font-weight: bold;
+    font-size: 18px;
+}
+input {
+    margin-bottom: 6px;
+    padding: 3px;
+    border:transparent;
+}
+button {
+    padding: 5px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: crimson;
+}
+button:hover {
+    background-color: darkblue;
+}
+.forgot {
+    color: crimson;
+}
+.forgot:hover {
+    color: blueviolet;
+}
